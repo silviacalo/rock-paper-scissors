@@ -1,0 +1,13 @@
+body {
+  div, p, h1, h2, label {
+    font-family: $barlow;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .main {
+    background-image: $background-gradient;
+  }
+}

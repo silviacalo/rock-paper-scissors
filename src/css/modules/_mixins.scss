@@ -1,0 +1,13 @@
+//Smartphone landscape (comprensivo di iPhone X)
+@mixin media-breakpoint-sm-landscape {
+  @media only screen and (max-device-width : 767px) and (orientation: landscape), (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+    @content;
+  }
+}
+
+//Only iPhone X landscape
+@mixin media-breakpoint-iphonex-landscape {
+  @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+    @content;
+  }
+}
